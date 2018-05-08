@@ -43,6 +43,7 @@ MainView::~MainView()
 void MainView::onClick()
 {
     displayPhrase->setText(phrases[qrand()&phrases.size()]);
+
 }
 
 void MainView::loadPhrases()
